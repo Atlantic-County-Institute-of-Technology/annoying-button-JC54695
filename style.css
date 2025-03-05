@@ -1,0 +1,36 @@
+#button1 {
+     
+        position: absolute;
+        height: 300px;
+        width: 300px;
+        margin-right: 50%;
+        margin-left: 50%;
+        border-radius: 50%;
+        border-width: 1px;
+        border-color: red;
+        background-color: red;
+        bottom: 350px;
+        left: -142px;
+        box-shadow: 1px 25px 0px 0px darkgray;
+    
+}
+
+
+#button1:active{
+        animation: pressAnimation .85ms;
+}
+
+
+
+@keyframes pressAnimation {
+        0%{box-shadow: 0px 25px 0px 0px darkred; height: 265px;}
+        20%{box-shadow: 0px 10px 0px 0px gray; height: 265px; }
+        40%{box-shadow: 0px 5px 0px 0px lightcoral; height: 265px;}
+        50%{box-shadow: 5px 8px 0px 0px; height: 265px;}
+        60%{box-shadow: 0px 10px 0px 0px darkred; height: 265px; }
+        80%{box-shadow: 0px 15px 0px 0px lightcoral; height: 265px;}
+        100%{box-shadow: 0px 5px 0px 0px gray;}
+}
+
+
+
