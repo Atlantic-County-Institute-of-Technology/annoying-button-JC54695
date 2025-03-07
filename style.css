@@ -1,3 +1,5 @@
+/* This for when my button spins around and the user has to click it */
+
 @keyframes rotate1 {
     
   
@@ -11,7 +13,7 @@
                           translateY(300px) rotate(0deg); 
                 } 
         }
-
+/* This is a container for my button. It makes it way easier to work with. */
 
 .buttonContainer {
         display: flex;
@@ -19,6 +21,7 @@
       
       }
 
+      /* This is the code for my button..duh*/
 .button1 {
 
         position: absolute;
@@ -33,6 +36,8 @@
 
 }
 
+/* This is the code for Jimmy. The second button that shows up */
+
 .button2 {
         background-color: green;
        font-size: 50px;
@@ -40,6 +45,8 @@
 
         
 }
+
+/* angry-dis3 are all actions I make the button do throughout the game. They are all called on in JS */
 
 .angry {
         background-color: darkred;
@@ -62,6 +69,24 @@
         height: 150px;
         width: 150px;
 }
+
+.dis1 {
+        width: 200px;
+        height: 200px;
+}
+
+.dis2 {
+        width: 100px;
+        height: 100px;
+}
+
+.dis3 {
+        opacity: 0%
+}
+
+
+/* This code gives off the illusion of the button actually being clicks */
+
 
 #button1:active{
         animation: pressAnimation .85ms;
